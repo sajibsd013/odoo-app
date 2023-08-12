@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="todo_menu_root"
+        name="ToDos"
+        sequence="10" />
+
+    <menuitem
+        id="todo_menu_operations"
+        name="Operations"
+        parent="todo_menu_root"
+        sequence="10" />
+
+    <menuitem
+        id="todo_menu"
+        name="ToDo"
+        parent="todo_menu_operations"
+        sequence="10" />
+
+</odoo>
